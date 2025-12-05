@@ -17,6 +17,7 @@ function mainTopEndStart() { // This contains meta, links, loaded resources, </h
 	    			<!-- Google Loaded Data -->
 	   		 
 	    </head>
+        <script src="php/authentication.js"></script>
 	    <body>';
 	return $html;
 }
