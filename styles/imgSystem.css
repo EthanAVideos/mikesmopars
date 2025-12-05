@@ -1,0 +1,160 @@
+/*Images system styling*/
+#overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.35);
+	z-index: 9999;
+	display: none;
+}
+
+#overlay img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-height: 90vh;
+	max-width: 90vw;
+	border: 2px solid #fff;
+}
+
+#overlay .close-button {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	cursor: pointer;
+	color: #fff;
+	background-color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 5px solid black;
+	border-radius: 5px;
+	font-size: 35px;
+	z-index: 999;
+	transition: 2s;
+}
+
+#overlay .close-button:hover {
+	transition: 2s;
+	color: #78BE21;	
+	font-size: 45px;	
+}
+
+#overlay .instruction-text {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #1E90FF;
+	background-color: black;
+	font-size: 16px;
+	animation: fadeColors 3s infinite;
+}
+
+#overlay .description {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #1E90FF;
+	background-color: black;
+	font-size: 16px;
+	/*animation: fadeColors 3s infinite; */
+}
+
+@keyframes fadeColors {
+	0%, 50% {
+		color: #1E90FF;
+	}
+	50.1%, 100% {
+		color: #78BE21;
+	}
+} 
+
+.test {
+	transition: 2s;
+	width: 150px; 
+	height: 80px;	
+}
+
+.test:hover {
+	transition: 2s;
+	width: 180px; 
+	height: 110px;	
+}
+
+.arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50px;
+	height: 50px;
+	font-size: 45px;
+	color: #fff;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 50%;
+	transition: 2s;
+	z-index: 999;
+}
+
+.arrow.left {
+	left: 20px;
+}
+
+.arrow:hover {
+	transition: 2s;
+		width: 70px;
+		height: 70px;	
+		color: #78BE21;
+		font-size: 65px;
+}
+
+.arrow.right {
+	right: 20px;
+}
+
+@media screen and (max-width: 1080px) { /*Targets sreens 1080px & smaller*/
+
+	/*Close button*/
+	#overlay .close-button {
+		transition: 0s;
+	}
+
+	#overlay .close-button:hover {
+	transition: 0s;
+	color: #fff;	
+	font-size: 35px;	
+	}
+
+	/*Arrows*/
+	.arrow {
+		transition: 0s;
+	}
+
+	.arrow:hover {
+		transition: 0s;
+		width: 50px;
+		height: 50px;	
+		color: #fff;
+		font-size: 45px;
+	}
+
+	/*Image norm & hover setup */
+	.test {
+		transition: 0s;
+		width: 150px; 
+		height: 80px;	
+	}
+
+	.test:hover {
+		transition: 0s;
+		width: 150px; 
+		height: 80px;	
+	}
+}
