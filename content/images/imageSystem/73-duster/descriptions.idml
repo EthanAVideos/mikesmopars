@@ -1,0 +1,48 @@
+/*
+Developer: EthanA Videos,
+File Created: 5/24/24 - 2.5.2,
+File Updated On: 5/24/24 - 2.5.2,
+Description: Image system image descriptions.
+Format: IDML (Image Description Markup Language)
+*/
+
+# NOTE: Must not have any spaces example <image> image0.jpg<image> , <image> <description>
+# For each image description must have it's own line, no double lining descriptions.
+
+
+# Start (Add code below)
+<image>68EBC2E5-1936-48AA-87BD-5477A378F56F 1.45.34 PM.jpeg<image><description>description_text01<description>
+<image>340 1.jpeg<image><description>description_text02<description>
+<image>340 2.jpeg<image><description>description_text03<description>
+<image>340 3.jpeg<image><description>description_text04<description>
+<image>340 4.jpeg<image><description>description_text05<description>
+<image>340 5.jpeg<image><description>description_text06<description>
+<image>340 6.jpeg<image><description>description_text07<description>
+<image>340 comes home.jpeg<image><description>description_text08<description>
+<image>ChallengerDuster.jpg<image><description>description_text09<description>
+<image>Duster-cmpr.jpg<image><description>description_text10<description>
+<image>EFI manifold.jpeg<image><description>description_text11<description>
+<image>IMG_0741-cmpr.jpg<image><description>description_text12<description>
+<image>IMG_0744-cmpr.jpg<image><description>description_text13<description>
+<image>IMG_0745-cmpr.jpg<image><description>description_text14<description>
+<image>IMG_0757-cmpr.jpg<image><description>description_text15<description>
+<image>IMG_0765-cmpr.jpg<image><description>description_text16<description>
+<image>IMG_0766-cmpr.jpg<image><description>description_text17<description>
+<image>IMG_0767-cmpr.jpg<image><description>description_text18<description>
+<image>IMG_0768-cmpr.jpg<image><description>description_text19<description>
+<image>IMG_4101-cmpr.JPG<image><description>description_text20<description>
+<image>IMG_4103-cmpr.jpg<image><description>description_text21<description>
+
+# 17th annual mopars car show at junction - 2024
+<image>i1.jpg<image><description>1973 Plymouth Duster at 17th Annual Mopars car show<description>
+<image>i2.jpg<image><description>1973 Plymouth Duster at 17th Annual Mopars car show - with more of an engine view<description>
+<image>i3.jpg<image><description>1973 Plymouth Duster at 17th Annual Mopars car show - with 1972 - 2002 Factory Muscle 1st place trophy sitting on the front<description>
+<image>i4.jpg<image><description>1973 Plymouth Duster at 17th Annual Mopars car show - with 1972 - 2002 Factory Muscle 1st place trophy sitting on the front - zoomed in image<description>
+<image>i5.jpg<image><description>Michael just receiving his 1972 - 2002 Factory Muscle 1st place trophy for his 1973 Plymouth Duster at 17th Annual Mopars car show.<description>
+<image>i6.jpg<image><description>1973 Plymouth Duster at 17th Annual Mopars car show - A lowwer view.<description>
+# End (Add code above)
+
+/*
+Template
+<image>image_name<image><description>description_text<description>
+*/

@@ -1,0 +1,21 @@
+/*
+Developer: EthanA Videos,
+File Created: 5/24/24 - 2.5.2,
+File Updated On: 5/24/24 - 2.5.2,
+Description: Image system image descriptions.
+Format: IDML (Image Description Markup Language)
+*/
+
+# NOTE: Must not have any spaces example <image> image0.jpg<image> , <image> <description>
+# For each image description must have it's own line, no double lining descriptions.
+
+
+# Start (Add code below)
+<image>21973E12-4E4D-4C11-BD47-A87C0D7A45AE_1_105_c.jpeg<image><description>description_text01<description>
+<image>toy truck.jpeg<image><description>description_text02<description>
+# End (Add code above)
+
+/*
+Template
+<image>image_name<image><description>description_text<description>
+*/
