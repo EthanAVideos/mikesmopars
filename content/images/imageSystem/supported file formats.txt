@@ -1,0 +1,4 @@
+Supported file formats aka file extensions.
+JPG, jpg, JPEG, jpeg, PNG, png, heif, HEIF, hevc, HEVC
+
+04/14/24 @ 5:23 PM GMT - 4
