@@ -11,7 +11,7 @@ Format: IDML (Image Description Markup Language)
 
 
 # Start (Add code below)
-<image>68EBC2E5-1936-48AA-87BD-5477A378F56F 1.45.34 PM.jpeg<image><description>description_text01<description>
+<image>0.png<image><description>description_text01<description>
 <image>340 1.jpeg<image><description>description_text02<description>
 <image>340 2.jpeg<image><description>description_text03<description>
 <image>340 3.jpeg<image><description>description_text04<description>
